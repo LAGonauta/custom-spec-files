@@ -71,7 +71,8 @@ rm -f $RPM_BUILD_ROOT%{mingw64_libdir}/gio/modules/*.la
 %files -n mingw32-glib-networking -f mingw32-glib-networking.lang
 %license COPYING
 %{mingw32_libdir}/gio/modules/*.dll
-                                                                                                                     %files -n mingw64-glib-networking -f mingw64-glib-networking.lang
+
+%files -n mingw64-glib-networking -f mingw64-glib-networking.lang
 %license COPYING
 %{mingw64_libdir}/gio/modules/*.dll
 
